@@ -16,10 +16,8 @@ The final output is a video where each player is detected and their jersey numbe
 - **football_train/** – raw annotations in JSON format.  
 - **DATA_IMAGES/** – extracted frames from videos.  
 - **DATA_LABELS/** – label files.  
-- **test_result/** – trained models and test results (video input/output).  
-- **crop.py** – prepare classification dataset from detection annotations.  
-- **inference_pipeline.py** – run detection + classification on video input.  
-
+- **inference** – run detection + classification on video input.
+- **prepare_data - script prepare data
 ---
 
 ## ⚙️ Data Preparation
@@ -86,4 +84,4 @@ The final output is a video where each player is detected and their jersey numbe
 ## 🎥 Final Pipeline
 - Combined pipeline detects players and predicts jersey numbers on video.  
 - Output video example is saved in:
-[![Watch the demo video](https://img.youtube.com/vi/FbJ9uYJqtAo/0.jpg)](https://youtu.be/FbJ9uYJqtAo)
+[![Watch the demo video](https://youtu.be/FbJ9uYJqtAo)
